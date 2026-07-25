@@ -1,0 +1,4 @@
+numpy>=1.26
+matplotlib>=3.8
+imageio>=2.34
+heapdict>=1.0.1

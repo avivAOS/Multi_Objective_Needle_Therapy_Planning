@@ -1,0 +1,62 @@
+# Virtual environment
+.venv/
+.venv-win/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Distribution / packaging
+.eggs/
+sdist/
+wheels/
+pip-wheel-metadata/
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment / secrets
+.env
+.env.*
+
+# VSCode — keep workspace settings, ignore personal/local overrides
+.vscode/launch.json
+.vscode/tasks.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project outputs
+outputs/
+maps/
+map_state.npy
+map_state.json
+map_state_3d.json
+*.log
+
+# Compiled C extensions (for packages like FCL/OMPL wrappers)
+*.dll
+*.lib
